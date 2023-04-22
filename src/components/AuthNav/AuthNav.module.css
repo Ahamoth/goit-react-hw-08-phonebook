@@ -1,0 +1,59 @@
+.navigation {
+    display: flex;
+    /* gap: 15px; */
+}
+
+.btnGrad:nth-of-type(2) {
+    background-image: linear-gradient(to right,
+            #b7adb5 0%,
+            #dbd4b4 51%,
+            #e0b7d7 100%);
+    margin: 10px;
+    padding: 12px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    display: block;
+}
+
+.btnGrad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    text-decoration: none;
+}
+
+.btnGrad:nth-child(1) {
+    border: 1px solid #b7adb5;
+    text-decoration: none;
+    margin: 10px;
+    padding: 12px 27px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+    background-size: 200% auto;
+    background-color: white;
+    color: #b7adb5;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 6px;
+    display: block;
+}
+
+.btnGrad:nth-child(1):hover {
+    color: #998094;
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)),
+        linear-gradient(101deg, #ffefce, #d7647d, #998094);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.active {
+    scale: 1.1;
+}

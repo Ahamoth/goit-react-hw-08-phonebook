@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 300ms linear;
+    color: rgba(72, 51, 51, 0.943);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
